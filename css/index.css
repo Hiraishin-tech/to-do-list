@@ -1,0 +1,121 @@
+.log-in-form {
+    height: 93.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(-135deg, #c850c0, #4158d0);
+}
+
+form {
+    text-align: center;
+    width: 500px;
+    background-color: white;
+    height: 400px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* aladin-regular - latin_latin-ext */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Aladin';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/aladin-v24-latin_latin-ext-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+/* Header */
+
+form h1 {
+    font-size: 45px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-family: "Aladin";
+    letter-spacing: 2px;
+}
+
+form input {
+    margin-bottom: 10px;
+    font-size: 25px;
+    border-radius: 7px;
+    outline: none;
+    padding-left: 5px;
+    width: 350px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+form input:focus {
+    transition: 0.3s;
+    border: 2px solid #bf3bd6;
+}
+
+form button {
+    font-size: 25px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #57b846;
+    padding: 2px;
+    cursor: pointer;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+form button:hover {
+    transition: 0.5s;
+    background-color: rgb(14, 157, 14);
+    color: white;
+}
+
+form p {
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+form a {
+    margin: 0 auto;
+    font-size: 18px;
+    text-decoration: none;
+    border: 1px solid transparent;
+}
+
+form a:hover {
+    transition: 0.5s;
+    border-bottom: 1px solid #c850c0;
+}
+
+/********
+Animation for NotePad
+*********/
+body {
+    background: linear-gradient(-135deg, #c850c0, #4158d0);
+}
+
+body div.animation {
+    text-align: center;
+}
+
+body div i {
+    font-size: 60px;
+    animation-name: Notepad;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+}
+
+@keyframes Notepad {
+    0% {
+        transform: translateY(40px);
+        transform: translateX(0px);
+    }
+    100% {
+        transform: translateY(110px);
+        transform: translate(0px);
+    }
+}
+

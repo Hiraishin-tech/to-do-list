@@ -1,0 +1,196 @@
+/* Background */
+html, body {
+    background: linear-gradient(rgb(143, 143, 245), rgb(12, 91, 165));
+    /* background: red; */
+}
+
+/* Delete button */
+
+.Tasks form .delete {
+    background: none;
+    border: none;
+}
+
+.Tasks form .delete i {
+    color: #ce2323;
+    cursor: pointer;
+}
+
+/* Create button */
+
+.createTask-form form button {
+    background-color: rgb(33, 189, 33);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.createTask-form form button:hover {
+    background-color: rgb(21, 153, 21);
+}
+
+.createTask-form form i {
+    color: white;
+    font-weight: 100;
+}
+
+/* Header */
+header {
+    padding-top: 5vh;
+    padding-bottom: 2vh;
+}
+
+header h1 {
+    text-align: center;
+}
+
+header p {
+    text-align: right;
+    margin-right: 3vw;
+    font-weight: bold;
+}
+
+/* Sign out */
+
+body a.Sign-out {
+    display: inline-block;
+    position: relative;
+    left: 89vw;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-right: 2.8vw; 
+    margin-bottom: 10px; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+body a.Sign-out:hover {
+    color: blue;
+    transition: 0.5s;
+}
+
+/* Background */
+main {
+    min-height: 81vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/* Footer */
+
+/* zilla-slab-regular - latin_latin-ext */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/zilla-slab-v11-latin_latin-ext-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* zilla-slab-600italic - latin_latin-ext */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Zilla Slab';
+    font-style: italic;
+    font-weight: 600;
+    src: url('../fonts/zilla-slab-v11-latin_latin-ext-600italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    font-family: "Zilla Slab";
+}
+
+footer span.copyright {
+    font-weight: bold;
+}
+
+/********************
+MAIN, TABLE with tasks
+*********************/
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30vh;
+}
+
+.createTask-form {
+    margin-bottom: 1rem;
+}
+
+.createTask-form form input {
+    font-size: 21px;
+    background-color: rgba(255, 255, 255, 0.562);
+    font-weight: bold;
+    border-radius: 5px;
+    outline: none;
+}
+
+.createTask-form form input::placeholder {
+    color: rgb(70, 70, 70);
+    font-weight: normal;
+}
+
+.createTask-form form button {
+    width: 25px;
+    height: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+
+/* Table */
+.Tasks table {
+    max-width: 1000px;
+}
+
+.Tasks table th {
+    font-size: 23px;
+    
+}
+
+.Tasks table tr {
+    text-align: center;
+    height: 30px;
+    font-size: 20px;
+}
+
+.Tasks table th.rankTask {
+    font-size: 25px;
+}
+
+.Tasks table td.rankTask {
+    text-align: right;
+}
+
+th.rankTask {
+    text-align: right;
+    padding-right: 5px;
+}
+
+td.Ukoly {
+    text-align: left;
+    padding-left: 5vw;
+    word-break: break-word;
+}
+
+tr th.editTask {
+    padding-right: 20px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+tr td.editTask {
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+}
+
+.Tasks table td {
+    border-bottom: 1px solid blue;
+}

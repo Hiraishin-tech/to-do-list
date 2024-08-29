@@ -1,0 +1,118 @@
+.registration-form {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(-135deg, #c850c0, #4158d0);
+}
+
+form {
+    text-align: center;
+    width: 550px;
+    background-color: white;
+    height: 750px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* aladin-regular - latin_latin-ext */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Aladin';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/aladin-v24-latin_latin-ext-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+/* Header */
+
+form h1 {
+    font-size: 45px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-family: "Aladin";
+    letter-spacing: 2px;
+}
+
+form label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3px;
+    font-size: 20px;
+}
+
+form input {
+    margin-bottom: 10px;
+    font-size: 25px;
+    border-radius: 7px;
+    outline: none;
+    padding-left: 5px;
+    width: 350px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+form input:focus {
+    transition: 0.3s;
+    border: 2px solid #bf3bd6;
+}
+
+form button {
+    font-size: 25px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #57b846;
+    padding: 2px;
+    cursor: pointer;
+    width: 200px;
+    margin: 0 auto;
+}
+
+form button:disabled {
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+form button:hover {
+    transition: 0.5s;
+    background-color: rgb(14, 157, 14);
+    color: white;
+}
+
+form p.password-text {
+    margin-bottom: 20px;
+    padding-top: 0;
+    margin-top: 5px;
+}
+
+form p {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+form a {
+    text-decoration: none;
+    border: 1px solid transparent;
+    font-size: 18px;
+    margin: 0 auto;
+}
+
+form a:hover {
+    transition: 0.5s;
+    border-bottom: 1px solid #c850c0;
+}
+
+/* Password checker */
+
+.valid {
+    color: green;
+    font-weight: bold;
+}
+
+.invalid {
+    color: red;
+    font-weight: bold;
+}

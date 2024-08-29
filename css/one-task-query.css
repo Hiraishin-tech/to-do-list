@@ -1,0 +1,12 @@
+@media (max-width: 500px) {
+    textarea {
+        width: 200px;
+        height: 100px;
+    }
+    
+    table tr td button {
+        margin-left: 6px;
+    }
+
+
+}

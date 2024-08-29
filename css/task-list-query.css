@@ -1,0 +1,37 @@
+/* Footer */
+@media (max-width: 700px) {
+    footer {
+        padding: 10px 10px;
+    }
+}
+
+/* btn - create task */
+@media (max-width: 320px) {
+    .createTask-form form {
+        position: relative;
+    }
+
+    .createTask-form form button {
+        position: absolute;
+        right: 0vw;
+        height: 27px;
+        
+    }
+}
+
+@media (max-width: 760px) {
+    header p {
+        margin-top: 10px;
+    }
+}
+
+/* Sign out */
+@media (max-width: 870px) {
+    body a.Sign-out {
+        left: 1vw;
+    }
+}
+
+
+    
+

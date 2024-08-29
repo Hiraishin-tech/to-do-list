@@ -1,0 +1,25 @@
+@media (max-width: 400px) {
+    form {
+        width: 280px;
+    }
+
+    form input {
+        width: 220px;
+        font-size: 20px;
+    }
+
+    form button {
+        width: 100px;
+        font-size: 18.5px;
+        
+    }
+
+    /* For registration site */
+    form button.btn-reg {
+        width: 150px;
+    }
+
+    form h1.reg-heading {
+        font-size: 35px;
+    }
+}
