@@ -10,7 +10,8 @@ form {
     text-align: center;
     width: 550px;
     background-color: white;
-    height: 750px;
+    /* height: 750px; */
+    height: 88vh;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -98,6 +99,7 @@ form a {
     border: 1px solid transparent;
     font-size: 18px;
     margin: 0 auto;
+    margin-bottom: 5px;
 }
 
 form a:hover {

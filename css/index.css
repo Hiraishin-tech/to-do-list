@@ -111,11 +111,9 @@ body div i {
 @keyframes Notepad {
     0% {
         transform: translateY(40px);
-        transform: translateX(0px);
     }
     100% {
         transform: translateY(110px);
-        transform: translate(0px);
     }
 }
 
