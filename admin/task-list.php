@@ -32,6 +32,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <link rel="stylesheet" href="../css/general.css">
     <link rel="stylesheet" href="../css/task-list.css">
     <link rel="stylesheet" href="../css/task-list-query.css">
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
 
     <script src="https://kit.fontawesome.com/88b85df50e.js" crossorigin="anonymous"></script>
     <title>Task-list</title>

@@ -33,6 +33,8 @@ if(isset($_GET["id"]) and is_numeric($_GET["id"]) ) {
     <link rel="stylesheet" href="../css/general.css">
     <link rel="stylesheet" href="../css/one-task.css">
     <link rel="stylesheet" href="../css/one-task-query.css">
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+
     <script src="https://kit.fontawesome.com/88b85df50e.js" crossorigin="anonymous"></script>
     <title>Edit úkolu</title>
 </head>

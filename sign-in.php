@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="./css/sign-in.css">
     <link rel="stylesheet" href="./css/index-sign-in-query.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <title>Registrace</title>
 </head>
 <body>

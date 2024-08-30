@@ -8,6 +8,10 @@
         font-size: 20px;
     }
 
+    div.password {
+        width: 220px;
+    }
+
     form button {
         width: 100px;
         font-size: 18.5px;

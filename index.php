@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/index-sign-in-query.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 
     <script src="https://kit.fontawesome.com/88b85df50e.js" crossorigin="anonymous"></script>
     <title>Přihlášení</title>
@@ -18,11 +19,17 @@
     <form action="./admin/auth.php" method="POST">
         <h1>Přihlásit se</h1>
         <input type="email" name="email" placeholder="Email" required><br>
-        <input type="password" name="password" placeholder="Heslo" required><br>
+        <div class="password">
+            <input type="password" name="password" placeholder="Heslo" required>
+            <i class="fa-solid fa-eye"></i>
+        </div><br>
+
         <button>Přihlásit se</button>
         <p>Ještě nemáte účet?</p><a href="sign-in.php">Zaregistrovat se</a>
     </form>
 </section>
-    
+
+
+<script src="js/password-peek.js"></script>
 </body>
 </html>

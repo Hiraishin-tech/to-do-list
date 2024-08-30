@@ -99,7 +99,7 @@ body div.animation {
     text-align: center;
 }
 
-body div i {
+body div.animation i {
     font-size: 60px;
     animation-name: Notepad;
     animation-duration: 2s;
@@ -117,3 +117,22 @@ body div i {
     }
 }
 
+
+/* password-peeker */
+div.password {
+    position: relative;
+    width: 350px;
+    margin: 0 auto;
+}
+
+div.password i {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 8px;
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    color: #641fe4;
+    cursor: pointer;
+}
