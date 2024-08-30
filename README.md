@@ -1,2 +1,2 @@
 Task-list project using database "to-do-list.sql" to save data into database and fetching them in the "task-list.php" and "one-task.php". To access the site the user has to either log-in or sign-up in the Homepage.
-In order for the project to work on your local PC you have to import the "assets/database.php" into your localhost/phpmyadmin.
+In order for the project to work on your local PC you have to import the "assets/to-do-list.sql" into your localhost/phpmyadmin. If you want you can change the db connection info on "assets/database.php" and set up your own connection-info on your localhost. 
