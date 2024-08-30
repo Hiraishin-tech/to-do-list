@@ -48,7 +48,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         </section>
         <section class="Tasks">
             <table>
-                <thead> <!-- Nemusím tam mít thead a tbody, ale pro přehlednost to je lepší -->
+                <thead> <!-- Nemusí tam být thead a tbody, ale pro přehlednost to je lepší -->
                 <tr>
                         <th class="rankTask">#</th>
                         <th class="task-length">Úkoly</th>

@@ -21,7 +21,7 @@
         <input type="email" name="email" placeholder="Email" required><br>
         <div class="password">
             <input type="password" name="password" placeholder="Heslo" required>
-            <i class="fa-solid fa-eye"></i>
+            <i class="fa-solid fa-eye-slash"></i>
         </div><br>
 
         <button>Přihlásit se</button>
