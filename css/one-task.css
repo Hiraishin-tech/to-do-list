@@ -146,3 +146,10 @@ footer {
 footer span.copyright {
     font-weight: bold;
 }
+
+/* Current Time */
+span.actual-time {
+    color: blueviolet;
+    margin-left: 10px;
+    text-shadow: 1px 1px 1px #000;
+}

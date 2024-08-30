@@ -194,3 +194,10 @@ tr td.editTask {
 .Tasks table td {
     border-bottom: 1px solid blue;
 }
+
+/* Current Time */
+span.actual-time {
+    color: blueviolet;
+    margin-left: 10px;
+    text-shadow: 1px 1px 1px #000;
+}

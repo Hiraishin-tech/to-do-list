@@ -92,5 +92,7 @@ if(isset($_GET["id"]) and is_numeric($_GET["id"]) ) {
 </main>
 
 <?php require "../assets/footer.php" ?>
+
+<script src="../js/current-time.js"></script>
 </body>
 </html>

@@ -77,5 +77,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     </main>
     <?php require "../assets/footer.php" ?>
 
+<script src="../js/current-time.js"></script>
 </body>
 </html>
