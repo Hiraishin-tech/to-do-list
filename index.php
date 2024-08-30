@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/index-sign-in-query.css">
+    <link rel="stylesheet" href="css/index-sign-up-query.css">
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 
     <script src="https://kit.fontawesome.com/88b85df50e.js" crossorigin="anonymous"></script>
@@ -25,7 +25,7 @@
         </div><br>
 
         <button>Přihlásit se</button>
-        <p>Ještě nemáte účet?</p><a href="sign-in.php">Zaregistrovat se</a>
+        <p>Ještě nemáte účet?</p><a href="sign-up.php">Zaregistrovat se</a>
     </form>
 </section>
 
